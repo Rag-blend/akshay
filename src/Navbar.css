@@ -1,0 +1,40 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: transparent; /* Set background color to transparent */
+    /* padding: 10px 0; */
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Ensures the navbar is above other content */
+    backdrop-filter: blur(10px); /* Optional: Adds a blur effect behind the navbar */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    height: 50px;
+    padding: 5px;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Example: semi-transparent white */
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+}
